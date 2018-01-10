@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tech.rishwibinnu.w0w_itc.corpchoose">
+
+    <Button
+        android:id="@+id/corp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#000dff"
+        android:text="@string/corporate" />
+
+    <Button
+        android:id="@+id/corpcollection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_alignStart="@+id/corp"
+        android:layout_below="@+id/corp"
+        android:layout_marginTop="24dp"
+        android:text="@string/corporate_collection"
+        android:textColor="#000dff" />
+
+</RelativeLayout>

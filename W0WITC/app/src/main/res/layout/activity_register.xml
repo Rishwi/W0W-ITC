@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tech.rishwibinnu.w0w_itc.RegisterActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PEname"
+        android:hint="@string/pename"
+        android:paddingTop="30dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ngolay"
+        android:layout_below="@+id/PEname">
+
+        <EditText
+            android:id="@+id/ngo"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="24dp"
+            android:hint="@string/ngo" />
+
+        <Spinner
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ngospin"
+            android:layout_marginTop="25dp">
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/citylay"
+        android:layout_below="@+id/ngolay">
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="24dp"
+            android:hint="@string/city" />
+
+        <Spinner
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityspin"
+            android:layout_marginTop="25dp">
+        </Spinner>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/wardnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/citylay"
+        android:hint="@string/ward_number"
+        android:inputType="number"
+        android:paddingTop="30dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wardname"
+        android:hint="@string/ward_name"
+        android:layout_below="@+id/wardnumber"
+        android:paddingTop="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pesubmit"
+        android:text="@string/save"
+        android:layout_below="@+id/wardname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+
+</RelativeLayout>

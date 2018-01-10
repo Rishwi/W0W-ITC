@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tech.rishwibinnu.w0w_itc.schoolchoose">
+
+    <Button
+        android:id="@+id/scvisit"
+        android:textColor="#021bfc"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/visit"/>
+
+    <Button
+        android:id="@+id/scprop"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/scvisit"
+        android:layout_below="@+id/scvisit"
+        android:layout_marginTop="25dp"
+        android:text="@string/propagation"
+        android:textColor="#021bfc" />
+
+    <Button
+        android:id="@+id/scisrc"
+        android:textColor="#021bfc"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/scvisit"
+        android:layout_marginTop="98dp"
+        android:text="@string/isrc" />
+
+</RelativeLayout>

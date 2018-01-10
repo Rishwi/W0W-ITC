@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">W0W-ITC</string>
+    <string name="pename">PEname</string>
+    <string name="ward_number">Ward Number</string>
+    <string name="ward_name">Ward Name</string>
+
+    <string name="save">Save</string>
+    <string name="city">CITY</string>
+    <string name="ngo">NGO</string>
+    <string name="first_visit">First visit</string>
+    <string name="followup">Follow up</string>
+    <string name="propagation">Propagation</string>
+    <string name="visit">Visit</string>
+    <string name="isrc">ISRC</string>
+    <string name="corporate">Corporate</string>
+    <string name="corporate_collection">Corporate collection</string>
+    <string-array name="ngos">
+        <item>Esree Foundations</item>
+        <item>Samrthanam Trust for Disabled</item>
+        <item>Academy of Gadhian Studies</item>
+        <item>Moden Archtects Rural India</item>
+        <item>NGO 1</item>
+        <item>NGO 2</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="cities">
+        <item>Coimbatore</item>
+        <item>Ooty</item>
+        <item>Erode</item>
+        <item>Tirupur</item>
+        <item>Cochin</item>
+        <item>Chennai</item>
+        <item>Bangalore</item>
+        <item>Hyderabad</item>
+        <item>Andhrapradesh</item>
+        <item>Tirupati</item>
+        <item>Siddipet</item>
+        <item>Warangal</item>
+        <item>Mehboobnagar</item>
+        <item>Sircilla</item>
+        <item>Medak</item>
+        <item>Palwancha</item>
+        <item>BCM</item>
+        <item>Kothagudum</item>
+        <item>Delhi</item>
+        <item>Muzzafarpur</item>
+        <item>Chikmanglur</item>
+        <item>Mysore</item>
+        <item>City 1</item>
+        <item>"City 2</item>
+        <item>City 3</item>
+        <item>City 4</item>
+        <item>City 5</item>
+        <item>City 6</item>
+        <item>City 7</item>
+        <item>AP1</item>
+        <item>AP2</item>
+        <item>AP3</item>
+        <item>AP4</item>
+        <item>AP5</item>
+        <item>AP6</item>
+        <item>AP7</item>
+        <item>AP8</item>
+        <item>AP9</item>
+        <item>AP10</item>
+        <item>AP11</item>
+        <item>AP12</item>
+        <item>AP13</item>
+        <item>AP14</item>
+        <item>AP15</item>
+        <item>AP16</item>
+        <item>AP17</item>
+        <item>AP18</item>
+        <item>AP19</item>
+        <item>AP20</item>
+        <item>AP21</item>
+        <item>AP22</item>
+        <item>AP23</item>
+        <item>AP24</item>
+        <item>AP25</item>
+        <item>AP26</item>
+        <item>AP27</item>
+        <item>AP28</item>
+        <item>AP29</item>
+        <item>AP30</item>
+        <item>AP31</item>
+        <item>AP32</item>
+        <item>AP33</item>
+        <item>AP34</item>
+        <item>AP35</item>
+        <item>AP36</item>
+        <item>AP37</item>
+        <item>AP38</item>
+        <item>AP39</item>
+        <item>AP40</item>
+        <item>Others - Please Specify</item>
+    </string-array>
+</resources>
